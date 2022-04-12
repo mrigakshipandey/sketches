@@ -1,4 +1,9 @@
-<div class="header" style="display: flex; flex-direction: column; align-items: center;">
-  <div class="title" style="font-family: Southern Aire; font-size: 12vw">Sketches</div>
-  <div class="subtitle" style="font-family: Altone; font-size: 2vw;">By Mrigakshi</div>
+<div class="header">
+  <div class="title">Sketches</div>
+  <div class="subtitle">By Mrigakshi</div>
+</div>
+<div class="body">
+  <div class="imgdiv" *ngFor="let c of count">
+    <img class="image" [src]="imageURLPrefix+c+imageURLSufix">
+  </div>
 </div>

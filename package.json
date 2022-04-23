@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-and-deploy-gh-pages": "ng build --prod --baseHref='https://mrigakshipandey.github.io/sketches/' && npx ngh --dir dist/sketches"
   },
   "private": true,
   "dependencies": {

@@ -8,3 +8,4 @@ Steps to deploy are from [here](https://medium.com/swlh/how-to-deploy-an-angular
 ```
 "build:pages": "ng build --configuration production --output-path docs --base-href /sketches/"
 ```
+- Changed image path to start with './'

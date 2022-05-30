@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sketches';
-  count = Array.from({length: 50}, (_, i) => i + 1);
+  count = Array.from({length: 58}, (_, i) => i + 1);
   imageURLPrefix = '/assets/images/sketch ('
   imageURLSufix = ').jpg'
 }
